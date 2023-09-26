@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- External CSS -->
+        <link rel="stylesheet" href="style.css" />
         <title>Learn CSS</title>
         <!-- This is internal CSS -->
         <style>
+            /*This is a comment in CSS*/
             body {
-                background-color: yellow;
+                /*background-color: orange; */
+                /* This is using RGB */
+                background-color: rgb(238, 130, 238);
+                /* This is using HEX */
+                background-color: #ffa500;
+                /* This is using HSL */
+                background-color: hsl(147, 50%, 47%); 
+            }
+
+            h1 {
+                background-color: aqua;
+                border-bottom: 20px solid Navy;
+                border-left: 20px solid yellow;
+            }
+
+            h2 {
+                border-style: dotted;
+                border-color: violet;
             }
         </style>>
     </head>
@@ -13,5 +33,6 @@
         <!-- This is inline CSS -->
         <h1 style="color: red; text-align: center">Learn CSS is really fun!</h1>
         <p>My name is Miciko</p>
+        <h2>Learning CSS Border</h2>
     </body>
 </html>
